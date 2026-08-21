@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Emmanuel Odhiambo — full-stack web developer." />
+  <title>Emmanuel Odhiambo | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="page-loader" aria-hidden="true">
+    <div class="loader-ring"><span>EO</span></div>
+    <p>Loading portfolio</p>
+  </div>
+  <header class="header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="logo" href="#home">EO<span>.</span></a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-photo tilt-card" data-parallax>
+        <img src="assets/images/emmanuel-odhiambo.png" alt="Emmanuel Odhiambo" />
+      </div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Available for freelance work</p>
+        <h1>Hi, I’m Emmanuel.<br /><em>I build for the web.</em></h1>
+        <p class="intro">I’m a full-stack web developer creating modern websites, e-commerce stores, and useful business
+          systems that help people work and grow.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View my work</a>
+          <a class="button secondary" href="tel:+254743942353">Call me</a>
+          <a class="button secondary" href="outputs/emmanuel-odhiambo-cv.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section container reveal" id="about">
+      <p class="eyebrow">01 / About me</p>
+      <div class="two-columns">
+        <h2>I make websites that are clear, fast, and easy to use.</h2>
+        <div>
+          <p>I care about both how a website looks and how it works. My goal is to take a good idea and turn it into a
+            digital product that feels simple for its users.</p><a class="inline-link" href="#contact">Let’s work
+            together →</a>
+        </div>
+      </div>
+      <div class="stats">
+        <div><strong>25+</strong><span>Projects completed</span></div>
+        <div><strong>2+</strong><span>Years of experience</span></div>
+        <div><strong>15+</strong><span>Happy clients</span></div>
+      </div>
+    </section>
+
+    <section class="projects section reveal" id="projects">
+      <div class="container">
+        <p class="eyebrow">02 / Selected projects</p>
+        <h2>Work built with purpose.</h2>
+        <div class="project-grid">
+          <article class="project-card tilt-card">
+            <div class="project-image commerce"><a href=""><img src="assets/images/liquordine.png" alt="LiquorDine e-commerce website preview">a
+              <span>01</span></div>
+            <p>E-commerce</p>
+            <h3>Liquor dine E-Commerce</h3><span>polished online shopping experience.  <p>In progress </p></span>
+          </article>
+          <article class="project-card tilt-card">
+            <div class="project-image stock"><img src="assets/images/Screenshot 2026-08-04 143810.png" alt="Moov Cafe and Bistro website preview"> <span>02</span></div>
+            <p>Business system</p>
+            <h3>Stockwise</h3><span>A warm cafe and bistro website showcasing Moov Cafe's menu, story, and welcoming atmosphere.<p>In progress </p></span>
+          </article>
+          <article class="project-card tilt-card">
+            <div class="project-image travel"><span>03</span></div>
+            <p>Travel platform</p>
+            <h3>Safari Stories</h3><span>A place to discover unforgettable trips.</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section container reveal" id="services">
+      <p class="eyebrow">03 / Services</p>
+      <div class="two-columns">
+        <h2>How I can help your business.</h2>
+        <p>I offer practical web development services, from a first landing page through to a complete system.</p>
+      </div>
+      <div class="service-list">
+        <div><span>01</span>
+          <h3>Website development</h3>
+          <p>Responsive, high-performing websites for your business.</p>
+        </div>
+        <div><span>02</span>
+          <h3>E-commerce development</h3>
+          <p>Online stores with payments, products, and simple management.</p>
+        </div>
+        <div><span>03</span>
+          <h3>Custom business systems</h3>
+          <p>Useful tools for operations, inventory, and workflows.</p>
+        </div>
+        <div><span>04</span>
+          <h3>Website care</h3>
+          <p>Updates, performance improvements, and ongoing support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section reveal" id="contact">
+      <div class="container contact-content">
+        <p class="eyebrow">04 / Get in touch</p>
+        <h2>Have a project<br />in <em>mind?</em></h2>
+        <p>Tell me a little about it. I’d be happy to hear your idea and help you move it forward.</p>
+        <div class="contact-links">
+          <a href="mailto:emmanuelonlineacc@gmail.com">emmanuelonlineacc@gmail.com</a>
+          <a href="tel:+254743942353">+254 743 942 353</a>
+          <a href="https://wa.me/254743942353" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer"><a class="logo" href="#home">EO<span>.</span></a>
+    <p>© <span id="year"></span> Emmanuel Odhiambo.</p><a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
