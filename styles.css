@@ -333,15 +333,24 @@ body {
     box-shadow: 0 20px 36px #0008, 0 0 25px #adff1930
 }
 
+.project-link {
+    color: var(--accent);
+    text-decoration: none;
+    transition: text-shadow .2s
+}
+
+.project-link:hover {
+    text-shadow: 0 0 20px #adff1990
+}
 .commerce {
     background: linear-gradient(135deg, #235445, #74986d)
 }
 
-.stock {
+.hotel {
     background: linear-gradient(135deg, #122b35, #315d67)
 }
 
-.travel {
+.portfolio {
     background: linear-gradient(135deg, #462e59, #bd7955)
 }
 

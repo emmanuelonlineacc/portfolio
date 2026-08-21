@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmanuel Odhiambo - CV</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    :root {
+      --ink: #1c2724;
+      --muted: #5d6965;
+      --accent: #1d6b58;
+      --line: #d8dfdc;
+      --paper: #ffffff;
+      --soft: #f2f6f3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e7ece9;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+    }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 17mm 18mm 15mm;
+      background: var(--paper);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding-bottom: 17px;
+      border-bottom: 3px solid var(--accent);
+    }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      margin-bottom: 3px;
+      font-family: Arial, sans-serif;
+      font-size: 30pt;
+      letter-spacing: -1px;
+      line-height: 1;
+    }
+    .role {
+      margin: 0;
+      color: var(--accent);
+      font: 700 11pt Arial, sans-serif;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+    .contact {
+      align-self: end;
+      color: var(--muted);
+      font: 9pt Arial, sans-serif;
+      line-height: 1.65;
+      text-align: right;
+    }
+    a { color: inherit; text-decoration: none; }
+    .contact a, .project a { color: var(--accent); }
+    main { display: grid; grid-template-columns: 1fr 2.1fr; gap: 25px; padding-top: 19px; }
+    aside { padding-right: 18px; border-right: 1px solid var(--line); }
+    section { margin-bottom: 20px; }
+    h2 {
+      margin-bottom: 9px;
+      color: var(--accent);
+      font: 700 10pt Arial, sans-serif;
+      letter-spacing: 1.1px;
+      text-transform: uppercase;
+    }
+    h3 {
+      margin-bottom: 2px;
+      font: 700 12.5pt Arial, sans-serif;
+    }
+    p { margin-bottom: 8px; }
+    .profile { font-size: 12pt; line-height: 1.55; }
+    .facts { margin: 0; padding: 0; list-style: none; color: var(--muted); font-family: Arial, sans-serif; font-size: 9pt; }
+    .facts li { margin-bottom: 6px; }
+    .facts strong { display: block; color: var(--ink); font-size: 8pt; letter-spacing: .8px; text-transform: uppercase; }
+    .capabilities { display: flex; flex-wrap: wrap; gap: 6px; }
+    .capabilities span { padding: 5px 7px; background: var(--soft); color: var(--ink); font: 8.5pt Arial, sans-serif; }
+    .entry { margin-bottom: 17px; }
+    .entry-meta { margin-bottom: 5px; color: var(--muted); font: 9pt Arial, sans-serif; }
+    .entry ul { margin: 6px 0 0 17px; padding: 0; }
+    .entry li { margin-bottom: 4px; }
+    .project { padding: 10px 12px; margin-bottom: 10px; background: var(--soft); border-left: 3px solid var(--accent); }
+    .project h3 { display: inline; }
+    .project p { margin: 4px 0 0; }
+    footer { margin-top: 8px; padding-top: 10px; border-top: 1px solid var(--line); color: var(--muted); font: 8.5pt Arial, sans-serif; }
+    @media print {
+      body { background: white; }
+      .page { margin: 0; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <h1>Emmanuel Odhiambo</h1>
+        <p class="role">Self-Taught Full-Stack Web Developer</p>
+      </div>
+      <div class="contact">
+        <a href="mailto:emmanuelonlineacc@gmail.com">emmanuelonlineacc@gmail.com</a><br />
+        <a href="tel:+254743942353">+254 743 942 353</a><br />
+        <a href="https://wa.me/254743942353">WhatsApp</a> | <a href="https://github.com/">GitHub</a>
+      </div>
+    </header>
+
+    <main>
+      <aside>
+        <section>
+          <h2>Details</h2>
+          <ul class="facts">
+            <li><strong>Experience</strong>1.6 years</li>
+            <li><strong>Work preference</strong>Freelance opportunities</li>
+            <li><strong>Focus</strong>Websites, e-commerce, business systems</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Capabilities</h2>
+          <div class="capabilities">
+            <span>Website development</span>
+            <span>E-commerce</span>
+            <span>Business systems</span>
+            <span>Responsive design</span>
+            <span>Website care</span>
+            <span>User-focused design</span>
+          </div>
+        </section>
+        <section>
+          <h2>Strengths</h2>
+          <p>Clear communication, practical problem solving, attention to usability, and a commitment to continuous learning.</p>
+        </section>
+      </aside>
+
+      <div>
+        <section>
+          <h2>Profile</h2>
+          <p class="profile">Self-taught full-stack web developer with 1.6 years of experience creating responsive websites, e-commerce platforms, and practical business systems. I turn ideas into clear, user-friendly digital experiences with a strong focus on usability, performance, and modern design. I am committed to continuous learning and building reliable web solutions that help businesses work efficiently and grow online.</p>
+        </section>
+
+        <section>
+          <h2>Selected Projects</h2>
+          <article class="project">
+            <h3><a href="https://emmanuelonlineacc.github.io/LiquorDine-E-COmerce-web/">LiquorDine E-Commerce</a></h3>
+            <p>Responsive online shopping experience focused on clear product presentation and a simple customer journey. <strong>In progress.</strong></p>
+          </article>
+          <article class="project">
+            <h3><a href="https://emmanuelonlineacc.github.io/Moov-Cafe/">Moov Cafe and Bistro</a></h3>
+            <p>Warm, welcoming business website showcasing a cafe and bistro's menu, story, and atmosphere. <strong>In progress.</strong></p>
+          </article>
+          <article class="project">
+            <h3><a href="https://emmanuelonlineacc.github.io/portfolio/">Personal Portfolio</a></h3>
+            <p>Personal portfolio presenting web development services, selected work, and contact information.</p>
+          </article>
+        </section>
+
+        <section>
+          <h2>Services</h2>
+          <div class="entry">
+            <h3>Website Development</h3>
+            <p>Responsive, high-performing websites designed around business goals and ease of use.</p>
+          </div>
+          <div class="entry">
+            <h3>E-Commerce Development</h3>
+            <p>Online stores with product presentation, customer journeys, and simple management in mind.</p>
+          </div>
+          <div class="entry">
+            <h3>Custom Business Systems</h3>
+            <p>Useful digital tools for operations, inventory, and everyday workflows.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>References and additional project details available on request.</footer>
+  </div>
+</body>
+</html>
